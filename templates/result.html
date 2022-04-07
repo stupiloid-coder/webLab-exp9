@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Lab - Experiment 9 | Ritesh Kumar Pandey</title>
+
+    <!-- BootStrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+
+        h3 {
+            background-color: aliceblue;
+            padding: 35px;
+        }
+
+        footer {
+            background-color: aqua;
+            padding: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container my-2">
+        <h2 class="text-center">Feedback Result</h2>
+
+        <h3 class="mx-5">
+            Hello {{firstname}} , <br>
+            Your feedback result are as follows: <br> <br>
+
+            First name: {{firstname}} <br>
+            Last name: {{lastname}} <br>
+            Email: {{email}} <br>
+            Phone no.: {{phone}} <br> <br>
+
+            And your current emotion based on your feeling text is ... <br>
+            <span class="text-center">{{emotion[0]}}</span> <br><br>
+
+            Thank You !
+        </h3>
+
+
+        <footer class="fixed-bottom text-center">
+            Copyright &copy; Ritesh Kumar Pandey | TY_IT_43
+        </footer>
+    </div>
+
+</body>
+
+</html>
